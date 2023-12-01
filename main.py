@@ -27,3 +27,13 @@ while pygame.mixer.music.get_busy():  # wait for music to finish playing
 # Lets user to stop by pressing enter
 # input("Press enter to stop playback...")
 # pygame.mixer.music.stop()
+
+'''
+Take input from user by speech
+recognize the language 
+if its non-english, translate it to english;
+prompt it to llm
+get the answer from llm 
+translate it to recognized langauge
+and respond to the user 
+'''
